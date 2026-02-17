@@ -1,0 +1,83 @@
+
+/* Selector agrupado */
+body, h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* ================= */
+/* SELECTOR ID */
+/* ================= */
+#encabezado {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ================= */
+/* GRID PRINCIPAL */
+/* ================= */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ================= */
+/* TARJETAS */
+/* ================= */
+.tarjeta {
+    border: 2px solid #444444;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Clases de color */
+.rojo {
+    background-color: #d86a8a;
+    color: #ffffff;
+}
+
+.verde {
+    background-color: #b7d48b;
+}
+
+.azul {
+    background-color: #8ea6d1;
+}
+
+/* ================= */
+/* BOTONES */
+/* ================= */
+button {
+    background-color: #1976d2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+/* ================= */
+/* FOOTER */
+/* ================= */
+#pie {
+    background-color: #e8d7c5;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
